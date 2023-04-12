@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+
+table {
+    border: 1px solid;
+}
+
+
+th, tr, td {
+    color: black;
+    border: 1px solid;
+    text-align: center;
+    background-color: white;
+}
+
+td, th{
+    position: relative;
+    height: 10%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    overflow: visible;
+}
+
+td:hover{
+    -webkit-transform: scale(1.25);
+    transform: scaleY(1.25) scaleX(1.25);
+    margin-left: -64px\9; 
+    margin-top: -9px\9;
+    margin-right: -64px\9; 
+    margin-bottom: -9px\9;
+    z-index: 1;
+}
+
+.lec{
+    background-color: #40e040;
+}
+
+.tut{
+    background-color: rgb(248, 79, 79);
+}
+.lab{
+    background-color: rgb(95, 95, 249);
+}
+.day{
+    background-color: burlywood;
+}
+th{
+    background-color: burlywood;
+}
+
+.hovertext{
+    display: none;
+}
