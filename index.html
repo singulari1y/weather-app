@@ -22,56 +22,64 @@
         </tr>
         <tr>
             <td class="day">Monday</td>
-            <td colspan="3"></td>
-            <td class="lec">ES <p class="hovertext">L1</p> </td>
-            <td class="lec">MOW</td>
+            <td colspan="3" class="empty"></td>
+            <td>ES</td>
+            <td>MOW</td>
             <td rowspan="5">LUNCH</td>
             <td></td>
-            <td colspan="3" class="lab">WS</td>
+            <td colspan="3">WS</td>
         </tr>
         <tr>
             <td class="day">Tuesday</td>
-            <td class="tut">Thermo</td>
-            <td class="lec">M2</td>
-            <td class="lec">Thermo</td>
-            <td></td>
-            <td class="lec">CP</td>
+            <td class="orow">Thermo</td>
+            <td class="orow">M2</td>
+            <td class="orow">Thermo</td>
+            <td class="empty orow"></td>
+            <td class="orow">CP</td>
             <!-- <td>LUNCH</td> -->
-            <td colspan="2"></td>
-            <td class="lec">WS</td>
-            <td class="tut">ES</td>
+            <td colspan="2" class="empty orow"></td>
+            <td class="orow">WS</td>
+            <td class="orow">ES</td>
         </tr>
         <tr>
             <td class="day">Wednesday</td>
-            <td class="tut">M2</td>
-            <td colspan="2"></td>
-            <td class="lec">ES</td>
-            <td class="lec">MOW</td>
+            <td>M2</td>
+            <td colspan="2" class="empty"></td>
+            <td>ES</td>
+            <td>MOW</td>
             <!-- <td>LUNCH</td> -->
-            <td colspan="4"></td>
+            <td colspan="4" class="empty"></td>
         </tr>
         <tr>
             <td class="day">Thursday</td>
-            <td class="tut">MOW</td>
-            <td class="lec">M2</td>
-            <td class="lec">Thermo</td>
-            <td></td>
-            <td class="lec">CP</td>
+            <td class="orow">MOW</td>
+            <td class="orow">M2</td>
+            <td class="orow">Thermo</td>
+            <td class="empty orow"></td>
+            <td class="orow">CP</td>
             <!-- <td>LUNCH</td> -->
-            <td colspan="2" class="lab">Bio Lab</td>
-            <td colspan="2"></td>
+            <td colspan="2" class="orow">Bio Lab</td>
+            <td colspan="2" class="empty orow"></td>
         </tr>
         <tr>
             <td class="day">Friday</td>
-            <td colspan="3"></td>
-            <td class="lec">ES</td>
-            <td class="tut">MOW</td>
+            <td colspan="3" class="empty"></td>
+            <td>ES</td>
+            <td>MOW</td>
             <!-- <td>LUNCH</td> -->
-            <td class="lec">M2</td>
-            <td class="tut">Thermo</td>
-            <td></td>
-            <td class="lec">CP</td>
+            <td>M2</td>
+            <td>Thermo</td>
+            <td class="empty"></td>
+            <td>CP</td>
         </tr>
     </table>
+
+    <button onclick="darkMode()" class="button"> Toggle Mode </button>
+    <script>
+        function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
 </body>
 </html>

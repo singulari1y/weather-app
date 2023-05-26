@@ -1,29 +1,35 @@
 body {
     text-align: center;
-    background-color: rgb(48, 48, 48);
-    color: white;
+    background-color: rgba(218, 209, 209, 0.737);
+    color: black;
 }
 
 
 table {
     border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 th, tr, td {
     color: black;
-    border: 1px solid;
+    border: 1.5px solid;
     text-align: center;
-    background-color: white;
+    background-color: whitesmoke;
+    padding: 5px;
 }
 
-td, th{
+td{
+    background-color: rgb(75, 218, 99);
+}
+
+/* td{
     position: relative;
-    height: 10%;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     overflow: visible;
-}
+}*/
 
 td:hover{
     -webkit-transform: scale(1.25);
@@ -34,24 +40,22 @@ td:hover{
     margin-bottom: -9px\9;
     z-index: 1;
 }
-
-.lec{
-    background-color: #40e040;
+.day:hover, .empty:hover{
+    transform: none;
 }
 
-.tut{
-    background-color: rgb(248, 79, 79);
-}
-.lab{
-    background-color: rgb(95, 95, 249);
-}
-.day{
-    background-color: burlywood;
-}
-th{
-    background-color: burlywood;
+.day, th{
+    background-color: rgb(232, 205, 169);
 }
 
-.hovertext{
-    display: none;
+.dark{
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.button{
+    border-radius: 5%;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1.5px solid;
 }
